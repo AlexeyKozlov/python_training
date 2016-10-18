@@ -11,19 +11,17 @@ def app(request):
     return fixture
 
 
-
-
 def test_contacts(app):
-    app.login(username="kozlov", password="Kozlov30031988")
+    app.session.login(username="kozlov", password="Kozlov30031988")
     app.create_contact(Contact(Name="Wei", Lastname="Mei", Company="weimei inc.", Title="director", City="Somerville", State="MA",
                                     Zip="02145", Country="USA",
                                     Phone="8573182639"))
-    app.logout()
+    app.session.logout()
 
 def test_add_empty_contacts(app):
-    app.login(username="kozlov", password="Kozlov30031988")
+    app.session.login(username="kozlov", password="Kozlov30031988")
     app.create_contact(Contact(Name="Empty", Lastname="Empty", Company="Empty", Title="Empty", City="", State="",
                                     Zip="", Country="",
                                     Phone=""))
-    app.logout()
+    app.session.logout()
 
