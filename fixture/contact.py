@@ -50,6 +50,18 @@ class ContactHelper:
         wd.find_element_by_css_selector("button.button.gd_datepicker_dlg_display").click()
         wd.find_element_by_id("gd_datepicker_dlg_menu_year_2010").click()
         wd.find_element_by_xpath("//div[@id='gd_datepicker_dlg']/table/tbody/tr[5]/td[4]/div/div").click()
+        wd.find_element_by_xpath("//div[@class='docEditButtonbar']//button[.='Save and Exit']").click()
+
+    def delete_first(self):
+        wd = self.app.wd
+        self.open_adresses()
+        # select first contact
+        wd.find_element_by_xpath("//div[1]/table[3]/tbody/tr/td[3]/div[3]/div[2]/table/tbody/tr[9]/td[1]/input[1]").click()
+        # submit delition
+        wd.find_element_by_id("cmdItemDelete").click()
+        wd.find_element_by_css_selector("button.button-danger").click()
+        wd.find_element_by_id("anonymous_element_2").click()
+
 
     def open_adresses(self):
         wd = self.app.wd
