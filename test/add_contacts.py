@@ -1,28 +1,35 @@
 # -*- coding: utf-8 -*-
 
 from model.contact import Contact
+import pytest
+import random
+import string
 
-
-def test_add_contacts(app):
-    old_contacts = app.contact.get_contact_list()
-    contact = Contact(firstname="Alex", middlename="Malex", lastname="Balex", company="Talex",
-                               home="1234567890", mobile="0987654321", work="1234567899",
-                               email="alexe@balex")
-    app.contact.create(contact)
-    assert len(old_contacts) +1 == app.contact.count()
-    new_contacts = app.contact.get_contact_list()
-    old_contacts.append(contact)
-    assert sorted(old_contacts, key=Contact.id_or_max) == sorted(new_contacts, key=Contact.id_or_max)
+def random_string(prefix, maxlen):
+    symbols = string.ascii_letters + string.digits + string.punctuation + " "*10
+    return prefix + "".join([random.choice(symbols) for i in range(random.randrange(maxlen))])
 
 
 
-def test_add_empty_contacts(app):
-    old_contacts = app.contact.get_contact_list()
-    contact = Contact(firstname="", middlename="", lastname="", company="",
-                               home="", mobile="", work="",
-                               email="")
-    app.contact.create(contact)
-    new_contacts = app.contact.get_contact_list()
-    assert len(old_contacts) + 1 == len(new_contacts)
-    old_contacts.append(contact)
-    assert sorted(old_contacts, key=Contact.id_or_max) == sorted(new_contacts, key=Contact.id_or_max)
+testdata = [Contact(firstname="", middlename="", lastname="", company="", homephone="",
+                    mobilephone="", workphone="", email="")] + [
+    Contact(firstname=random_string("firstname", 10), middlename=random_string("middlename",20),
+            lastname=random_string("lastname", 20), company=random_string("company", 20),
+                           homephone=("homephone", 20), mobilephone=("mobilephone",20),
+            workphone=("workphone", 20), email=("email",20))
+]
+
+
+
+@pytest.mark.parametrize("contact", testdata, ids=[repr(x) for x in testdata])
+def test_add_contacts(app, contact):
+    for contact in testdata:
+        old_contacts = app.contact.get_contact_list()
+        app.contact.create(contact)
+        new_contacts = app.contact.get_contact_list()
+        assert len(old_contacts) +1 == len(new_contacts)
+        old_contacts.append(contact)
+        assert sorted(old_contacts, key=Contact.id_or_max) == sorted(new_contacts, key=Contact.id_or_max)
+
+
+
