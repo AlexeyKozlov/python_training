@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4ee942-299e-4054-b030-1d00d28df860" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/application.py" afterPath="$PROJECT_DIR$/fixture/application.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/contact.py" afterPath="$PROJECT_DIR$/fixture/contact.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/contact.py" afterPath="$PROJECT_DIR$/model/contact.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modify_contact.py" afterPath="$PROJECT_DIR$/modify_contact.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/add_contacts.py" afterPath="$PROJECT_DIR$/test/add_contacts.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/del_contacts.py" afterPath="$PROJECT_DIR$/test/del_contacts.py" />
     </list>
     <ignored path="python_training.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +30,8 @@
       <file leaf-file-name="add_contacts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/add_contacts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            <state relative-caret-position="90">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -38,8 +40,8 @@
       <file leaf-file-name="del_contacts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/del_contacts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="53" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -48,7 +50,7 @@
       <file leaf-file-name="application.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="15">
               <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
@@ -60,7 +62,7 @@
       <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
+            <state relative-caret-position="420">
               <caret line="37" column="86" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
               <folding />
             </state>
@@ -82,8 +84,8 @@
       <file leaf-file-name="modify_contact.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modify_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -104,8 +106,8 @@
       <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="49" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/fixture/contact.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+              <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -146,14 +148,14 @@
         <option value="$PROJECT_DIR$/test/test_del_contact.py" />
         <option value="$PROJECT_DIR$/test/conftest.py" />
         <option value="$PROJECT_DIR$/test/modify_conatct.py" />
-        <option value="$PROJECT_DIR$/model/contact.py" />
         <option value="$PROJECT_DIR$/test/modify_contacts.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/fixture/session.py" />
+        <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/model/contact.py" />
+        <option value="$PROJECT_DIR$/fixture/contact.py" />
         <option value="$PROJECT_DIR$/test/add_contacts.py" />
         <option value="$PROJECT_DIR$/test/del_contacts.py" />
-        <option value="$PROJECT_DIR$/fixture/application.py" />
-        <option value="$PROJECT_DIR$/fixture/contact.py" />
         <option value="$PROJECT_DIR$/modify_contact.py" />
       </list>
     </option>
@@ -292,7 +294,7 @@
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in add_contacts.py ">
+  <component name="RunManager" selected="Python tests.py.test in modify_contact.py">
     <configuration default="false" name="py.test in modify_contact.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -506,8 +508,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in add_contacts.py " />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in modify_contact.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in modify_contact.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in add_contacts.py " />
       </list>
     </recent_temporary>
   </component>
@@ -531,31 +533,31 @@
     <history-entry file="py_test_in_add_contacts_py_ - 2016.10.23 at 20h 30m 09s.xml">
       <configuration name="py.test in add_contacts.py " configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_modify_contact_py - 2016.10.23 at 20h 25m 49s.xml">
+    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.23 at 21h 10m 06s.xml">
+      <configuration name="py.test in add_contacts.py " configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.23 at 21h 14m 05s.xml">
+      <configuration name="py.test in add_contacts.py " configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.23 at 21h 15m 45s.xml">
+      <configuration name="py.test in add_contacts.py " configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.23 at 21h 18m 24s.xml">
+      <configuration name="py.test in add_contacts.py " configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_modify_contact_py - 2016.10.23 at 21h 23m 35s.xml">
       <configuration name="py.test in modify_contact.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_modify_contact_py - 2016.10.23 at 20h 26m 12s.xml">
+    <history-entry file="py_test_in_modify_contact_py - 2016.10.23 at 21h 23m 52s.xml">
       <configuration name="py.test in modify_contact.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_modify_contact_py - 2016.10.23 at 20h 26m 51s.xml">
-      <configuration name="py.test in modify_contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_modify_contact_py - 2016.10.23 at 20h 27m 20s.xml">
-      <configuration name="py.test in modify_contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_modify_contact_py - 2016.10.23 at 20h 28m 27s.xml">
-      <configuration name="py.test in modify_contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_modify_contact_py - 2016.10.23 at 20h 28m 47s.xml">
-      <configuration name="py.test in modify_contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_modify_contact_py - 2016.10.23 at 20h 29m 18s.xml">
-      <configuration name="py.test in modify_contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_modify_contact_py - 2016.10.23 at 20h 29m 46s.xml">
+    <history-entry file="py_test_in_modify_contact_py - 2016.10.23 at 21h 24m 11s.xml">
       <configuration name="py.test in modify_contact.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_del_contact_py - 2016.10.23 at 20h 29m 57s.xml">
+      <configuration name="py.test in test_del_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_del_contact_py - 2016.10.23 at 21h 19m 32s.xml">
       <configuration name="py.test in test_del_contact.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -595,7 +597,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -842,14 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="37" column="86" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -860,25 +854,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/add_contacts.py">
+    <entry file="file://$PROJECT_DIR$/model/contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/del_contacts.py">
+    <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="53" />
+        <state relative-caret-position="420">
+          <caret line="37" column="86" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="15">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
@@ -886,26 +880,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/contact.py">
+    <entry file="file://$PROJECT_DIR$/fixture/contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="49" />
+        <state relative-caret-position="240">
+          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/contact.py">
+    <entry file="file://$PROJECT_DIR$/test/add_contacts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+        <state relative-caret-position="90">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/del_contacts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modify_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>

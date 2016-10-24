@@ -1,5 +1,5 @@
 
-
+from model.contact import Contact
 class ContactHelper:
 
     def __init__(self, app):
@@ -65,3 +65,17 @@ class ContactHelper:
     def count(self):
         wd = self.app.wd
         return len (wd.find_elements_by_name("selected[]"))
+
+    def get_contact_list(self):
+            wd = self.app.wd
+            self.app.open_home_page()
+            contacts = []
+            for row in wd.find_elements_by_name("entry"):
+                cells = row.find_elements_by_tag_name("td")
+                firstname = cells[1].text
+                lastname = cells[2].text
+                id = cells[0].find_element_by_tag_name("input").get_attribute("value")
+                all_phones = cells[5].text
+                contacts.append(Contact(firstname=firstname, lastname=lastname, id=id,
+                                                  all_phones_from_home_page=all_phones))
+            return contacts
