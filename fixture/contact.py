@@ -58,8 +58,10 @@ class ContactHelper:
 
     def open_contact_page(self):
         wd = self.app.wd
-        wd.find_element_by_link_text("add new").click()
-
+        if (wd.current_url.endswith("/index.php") or wd.current_url.endswith("/edit.php")):
+            wd.find_element_by_link_text("add new").click()
+        else:
+            print("Wrong page!")
     def count(self):
         wd = self.app.wd
         return len (wd.find_elements_by_name("selected[]"))
