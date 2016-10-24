@@ -17,7 +17,6 @@ class ContactHelper:
         self.change_field_value("firstname", contact.firstname)
         self.change_field_value("middlename", contact.middlename)
         self.change_field_value("lastname", contact.lastname)
-        self.change_field_value("middlename", contact.middlename)
         self.change_field_value("company", contact.company)
         self.change_field_value("home", contact.home)
         self.change_field_value("mobile", contact.mobile)
