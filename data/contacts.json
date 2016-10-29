@@ -1,65 +1,84 @@
 [
   {
+    "py/object": "model.contact.Contact", 
     "workphone": "", 
     "mobilephone": "", 
     "firstname": "", 
     "middlename": "", 
     "lastname": "", 
     "company": "", 
-    "email": "", 
+    "id": null, 
     "secondaryphone": null, 
     "all_phones_from_home_page": null, 
-    "id": null, 
+    "email": "", 
     "homephone": ""
   }, 
   {
-    "workphone": [
-      "workphone", 
-      20
-    ], 
-    "mobilephone": [
-      "mobilephone", 
-      20
-    ], 
-    "firstname": "firstname},K32J", 
-    "middlename": "middlename KYPy", 
-    "lastname": "lastnameV4q&6Hd1a", 
-    "company": "company?B> YH", 
-    "email": [
-      "email", 
-      20
-    ], 
+    "py/object": "model.contact.Contact", 
+    "workphone": {
+      "py/tuple": [
+        "workphone", 
+        20
+      ]
+    }, 
+    "mobilephone": {
+      "py/tuple": [
+        "mobilephone", 
+        20
+      ]
+    }, 
+    "firstname": "firstname", 
+    "middlename": "middlenamel\\.zE", 
+    "lastname": "lastnameg0d*3{rJmBzZ Mg6.", 
+    "company": "company", 
+    "id": null, 
     "secondaryphone": null, 
     "all_phones_from_home_page": null, 
-    "id": null, 
-    "homephone": [
-      "homephone", 
-      20
-    ]
+    "email": {
+      "py/tuple": [
+        "email", 
+        20
+      ]
+    }, 
+    "homephone": {
+      "py/tuple": [
+        "homephone", 
+        20
+      ]
+    }
   }, 
   {
-    "workphone": [
-      "workphone", 
-      20
-    ], 
-    "mobilephone": [
-      "mobilephone", 
-      20
-    ], 
-    "firstname": "firstname]Ht;d;3ax", 
-    "middlename": "middlename`(Pr7L9*Ap3K|;y", 
-    "lastname": "lastname_;/D zjvg~@ *n5", 
-    "company": "companyUxDi?X I[V", 
-    "email": [
-      "email", 
-      20
-    ], 
+    "py/object": "model.contact.Contact", 
+    "workphone": {
+      "py/tuple": [
+        "workphone", 
+        20
+      ]
+    }, 
+    "mobilephone": {
+      "py/tuple": [
+        "mobilephone", 
+        20
+      ]
+    }, 
+    "firstname": "firstnamek!]*/", 
+    "middlename": "middlename'/q", 
+    "lastname": "lastname)nNjnO` Z?J ", 
+    "company": "company", 
+    "id": null, 
     "secondaryphone": null, 
     "all_phones_from_home_page": null, 
-    "id": null, 
-    "homephone": [
-      "homephone", 
-      20
-    ]
+    "email": {
+      "py/tuple": [
+        "email", 
+        20
+      ]
+    }, 
+    "homephone": {
+      "py/tuple": [
+        "homephone", 
+        20
+      ]
+    }
   }
 ]
