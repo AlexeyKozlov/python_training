@@ -1,6 +1,7 @@
-from selenium import webdriver
-from fixture.session import SessionHelper
 from fixture.contact import ContactHelper
+from fixture.session import SessionHelper
+from selenium import webdriver
+
 
 class Application:
 

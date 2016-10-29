@@ -23,5 +23,3 @@ testdata = [Contact(firstname="", middlename="", lastname="", company="", homeph
             workphone=("workphone", 20), email=("email",20))
     for i in range(2)
 ]
-
-
