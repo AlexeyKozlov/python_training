@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4ee942-299e-4054-b030-1d00d28df860" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/add_contact.py" afterPath="$PROJECT_DIR$/data/contacts.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/application.py" afterPath="$PROJECT_DIR$/fixture/application.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conftest.py" afterPath="$PROJECT_DIR$/conftest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/contacts.py" afterPath="$PROJECT_DIR$/data/contacts.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/add_contacts.py" afterPath="$PROJECT_DIR$/test/add_contacts.py" />
     </list>
     <ignored path="python_training.iws" />
@@ -26,23 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="add_contacts.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="add_contacts.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/add_contacts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="e#25#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modify_contact.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="modify_contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modify_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="150">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -53,8 +50,8 @@
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+            <state relative-caret-position="136">
+              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -99,7 +96,7 @@
       <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
+            <state relative-caret-position="1">
               <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
@@ -109,11 +106,9 @@
       <file leaf-file-name="contacts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/contacts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -184,10 +179,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="592" />
-    <option name="y" value="180" />
+    <option name="x" value="325" />
+    <option name="y" value="23" />
     <option name="width" value="851" />
-    <option name="height" value="546" />
+    <option name="height" value="679" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -345,7 +340,7 @@
       <recent name="$PROJECT_DIR$/test/.cache" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in modify_contact.py">
+  <component name="RunManager" selected="Python tests.py.test in add_contacts.py ">
     <configuration default="false" name="conact" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -627,8 +622,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in modify_contact.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in add_contacts.py " />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in add_contacts.py " />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in modify_contact.py" />
         <item index="2" class="java.lang.String" itemvalue="Python.conact" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_phones.py" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact_name" />
@@ -652,21 +647,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.29 at 08h 25m 07s.xml">
-      <configuration name="py.test in add_contacts.py " configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.29 at 08h 25m 29s.xml">
-      <configuration name="py.test in add_contacts.py " configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.29 at 08h 25m 48s.xml">
-      <configuration name="py.test in add_contacts.py " configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.29 at 08h 28m 16s.xml">
-      <configuration name="py.test in add_contacts.py " configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.29 at 08h 31m 13s.xml">
-      <configuration name="py.test in add_contacts.py " configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_add_contacts_py_ - 2016.10.29 at 08h 32m 49s.xml">
       <configuration name="py.test in add_contacts.py " configurationId="tests" />
     </history-entry>
@@ -674,6 +654,21 @@
       <configuration name="py.test in add_contacts.py " configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_add_contacts_py_ - 2016.10.29 at 08h 35m 12s.xml">
+      <configuration name="py.test in add_contacts.py " configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.29 at 08h 40m 58s.xml">
+      <configuration name="py.test in add_contacts.py " configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.29 at 08h 41m 50s.xml">
+      <configuration name="py.test in add_contacts.py " configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.29 at 08h 50m 11s.xml">
+      <configuration name="py.test in add_contacts.py " configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.29 at 08h 52m 16s.xml">
+      <configuration name="py.test in add_contacts.py " configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_add_contacts_py_ - 2016.10.29 at 08h 53m 39s.xml">
       <configuration name="py.test in add_contacts.py " configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_modify_contact_py - 2016.10.29 at 08h 35m 38s.xml">
@@ -684,10 +679,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="592" y="180" width="851" height="546" extended-state="0" />
-    <editor active="false" />
+    <frame x="325" y="23" width="851" height="679" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29142186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4148061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -696,7 +691,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4716981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5590164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -746,9 +741,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding>
-            <element signature="e#25#58#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -958,36 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/add_contacts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#25#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/contacts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1026,21 +989,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modify_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
+        <state relative-caret-position="1">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modify_contact.py">
+    <entry file="file://$PROJECT_DIR$/data/contacts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/add_contacts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

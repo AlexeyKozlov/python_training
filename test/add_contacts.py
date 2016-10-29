@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from model.contact import Contact
-import pytest
-from data.contacts import constant as testdata
 
-@pytest.mark.parametrize("contact", testdata, ids=[repr(x) for x in testdata])
-def test_add_contacts(app, contact):
+def test_add_contacts(app, data_contacts):
+    contact = data_contacts
     old_contacts = app.contact.get_contact_list()
     app.contact.create(contact)
     new_contacts = app.contact.get_contact_list()
