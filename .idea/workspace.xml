@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4ee942-299e-4054-b030-1d00d28df860" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conftest.py" afterPath="$PROJECT_DIR$/conftest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/del_contacts.py" afterPath="$PROJECT_DIR$/test/del_contacts.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check_db_conection.py" afterPath="$PROJECT_DIR$/check_db_conection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/db.py" afterPath="$PROJECT_DIR$/fixture/db.py" />
     </list>
     <ignored path="python_training.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,13 +34,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="del_contacts.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="del_contacts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/del_contacts.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="123" selection-start-line="15" selection-start-column="123" selection-end-line="15" selection-end-column="123" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
+                <marker date="1478268539000" expanded="true" signature="98:633" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,21 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/contacts.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="76">
+              <caret line="17" column="94" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -121,6 +111,16 @@
               <folding>
                 <element signature="e#1#34#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_db_conection.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/check_db_conection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -172,21 +172,21 @@
         <option value="$PROJECT_DIR$/generator/conact.py" />
         <option value="$PROJECT_DIR$/data/contacts.json" />
         <option value="$PROJECT_DIR$/target.json" />
-        <option value="$PROJECT_DIR$/check_db_conection.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/test/test_db_matches_ui.py" />
-        <option value="$PROJECT_DIR$/fixture/db.py" />
         <option value="$PROJECT_DIR$/test/add_contacts.py" />
         <option value="$PROJECT_DIR$/fixture/contact.py" />
         <option value="$PROJECT_DIR$/modify_contact.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/test/del_contacts.py" />
+        <option value="$PROJECT_DIR$/check_db_conection.py" />
+        <option value="$PROJECT_DIR$/fixture/db.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="296" />
-    <option name="y" value="356" />
+    <option name="x" value="384" />
+    <option name="y" value="72" />
     <option name="width" value="719" />
     <option name="height" value="679" />
   </component>
@@ -346,7 +346,7 @@
       <recent name="$PROJECT_DIR$/test/.cache" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_del_contact.py">
+  <component name="RunManager" selected="Python.check_db_conection">
     <configuration default="false" name="check_db_conection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -621,11 +621,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in modify_contact.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python.check_db_conection" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in add_contacts.py " />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_db_matches_ui.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_db_matches_ui" />
-        <item index="4" class="java.lang.String" itemvalue="Python.check_db_conection" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in modify_contact.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_db_matches_ui.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_db_matches_ui" />
       </list>
     </recent_temporary>
   </component>
@@ -646,8 +646,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_modify_contact_py - 2016.11.04 at 09h 51m 50s.xml">
-      <configuration name="py.test in modify_contact.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_contacts_py_ - 2016.11.04 at 10h 14m 08s.xml">
+      <configuration name="py.test in add_contacts.py " configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_modify_contact_py - 2016.11.04 at 09h 53m 03s.xml">
       <configuration name="py.test in modify_contact.py" configurationId="tests" />
@@ -661,9 +661,6 @@
     <history-entry file="py_test_in_modify_contact_py - 2016.11.04 at 09h 55m 39s.xml">
       <configuration name="py.test in modify_contact.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_del_contact_py - 2016.11.04 at 09h 50m 25s.xml">
-      <configuration name="py.test in test_del_contact.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_del_contact_py - 2016.11.04 at 09h 57m 55s.xml">
       <configuration name="py.test in test_del_contact.py" configurationId="tests" />
     </history-entry>
@@ -676,9 +673,12 @@
     <history-entry file="py_test_in_test_del_contact_py - 2016.11.04 at 10h 06m 45s.xml">
       <configuration name="py.test in test_del_contact.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_test_del_contact_py - 2016.11.04 at 10h 13m 43s.xml">
+      <configuration name="py.test in test_del_contact.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="296" y="356" width="719" height="679" extended-state="0" />
+    <frame x="384" y="72" width="719" height="679" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2642559" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -911,14 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check_db_conection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -964,16 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/add_contacts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1016,7 +998,26 @@
           <caret line="15" column="123" selection-start-line="15" selection-start-column="123" selection-end-line="15" selection-end-column="123" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
+            <marker date="1478268539000" expanded="true" signature="98:633" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="17" column="94" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_db_conection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
