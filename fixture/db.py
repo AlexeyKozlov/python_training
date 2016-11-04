@@ -9,6 +9,7 @@ class DbFixture:
         self.user = user
         self.password = password
         self.connection = mysql.connector.connect(host=host, database=name, user=user, password=password)
+        self.connection.autocommit = True
 
     def get_contact_list(self):
         list = []
@@ -21,7 +22,7 @@ class DbFixture:
                         mobilephone = mobile, workphone = work))
         finally:
             cursor.close()
-            return list
+        return list
 
     def destroy(self):
         self.connection.close()
